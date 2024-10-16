@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-900 grid place-content-center h-screen">
+  
+    <div class="flex-auto">
+        <div class="p-6 max-w-sm bg-white rounded-xl shadow-red-900 flex items-center space-x-4">
+        <div>
+            <img class="h-10 w-10" src="data:image/png;base64,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" alt="">
+        </div>
+            <div class=" text-2xl font-medium text-black">
+
+                Src logo
+                <p class=" text-slate-800 text-sm">
+                    By Akshay Kumar
+                </p>
+            </div>
+        </div>
+        <!--hover practical state change etc--> 
+        <div class="flex-auto">
+            <button class="flex-row items-center bg-sky-500 text-center mt-3 text-white text-base p-2 rounded-xl hover:bg-white hover:text-black">
+                    Buy now
+            </button>
+<div>
+    <p class="text-white md:text-purple-700 sm:text-red-700">
+        Color change by size
+    </p>
+</div>
+        </div>
+
+        <div class="mt-5">
+            <div class="max-w-80 mx-auto bg-white rounded-xl overflow-hidden md:max-w-xl">
+                <div class="md:flex">
+
+                    <div>
+                        <img class="h-50 w-full object-cover md:h-full md:w-50"  src="https://images.pexels.com/photos/27244370/pexels-photo-27244370/free-photo-of-suv-driving-car-in-winter-landscape-on-iceland.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" alt="">
+                    </div>
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+                      <a class="block mt-1 text-lg font-medium ftext-blac
+                      hover:text-blue-800" href="#"></a>
+                      <p>
+                        Everything is awesome
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
